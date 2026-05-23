@@ -1,0 +1,42 @@
+{
+  "name": "@arraypress/exchange-rates",
+  "version": "1.0.0",
+  "description": "Free, no-API-key exchange-rate snapshots — JS API + CLI on top of @fawazahmed0/currency-api via jsDelivr.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "bin": {
+    "exchange-rates": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test tests/exchange-rates.test.js"
+  },
+  "keywords": [
+    "exchange-rates",
+    "forex",
+    "currency",
+    "fx",
+    "rates",
+    "jsdelivr",
+    "ecb",
+    "free",
+    "cli",
+    "build-time"
+  ],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arraypress/exchange-rates.git"
+  }
+}
